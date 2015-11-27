@@ -17,6 +17,10 @@ td {
 	padding: 5px;
 }
 
+tr td:first-child, td:nth-child(2), td:nth-child(3) {
+	border-right: 1px solid #eee;
+}
+
 .row {
 	background: yellow;
 }
