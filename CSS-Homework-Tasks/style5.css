@@ -1,27 +1,55 @@
 #calculator	{
-	width: 500px;
-	border: 5px solid black;
+	width: 550px;
+	border: 2px solid #ccc;
 	padding:10px;
-	margin: 20px;
-	background-color: #eee;
+	margin: 10px;
+	background-color: #ddd;
 }
 
 #input-data {
 	font-size: 50px;
-	width: 95%;
+	text-align: right;
+	width: 470px;
+}
 
+#input-data:hover {
+	color: white; 
+	background: black;
 }
 
 td {
-	width: 1%;
-	font-size: 50px;
 	text-align: center;
+	width: 100px;
 	border: 1px solid black;
 	border-radius: 10px;
 	background-image: url(task5.jpg);
-	font-family: "Verdana", Verdana, serif;
+	
 }
 
 table {
 	border-spacing: 20px;
+}
+
+button {
+	width: 100px;
+	border-radius: 10px;
+	font-size: 50px;
+	background: transparent;
+	font-family: "Verdana", Verdana, serif;
+}
+
+button:hover {
+	background: red;
+}
+
+button:active {
+	background: green;
+}
+
+div {
+	width: 580px;
+	padding: 10px;
+	margin:10px;
+	border: 1px solid #bbb;
+	background: #eee;
 }

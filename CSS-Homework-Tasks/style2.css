@@ -1,0 +1,22 @@
+h1 {
+	border: 2px solid #00f;
+	background: #0af;
+	text-align: center;
+	color: red;
+}
+
+h4 {
+	text-align: center;
+}
+
+article {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    border: 2px solid #0af;
+	background: orange;
+}
+
+footer {
+	color: #0af;
+}

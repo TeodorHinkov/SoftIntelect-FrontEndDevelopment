@@ -1,0 +1,50 @@
+table {
+	width: 750px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 100px;
+	border-spacing: 0px;
+
+}
+
+#table-head {
+	text-align: left;
+	padding: 10px;
+	background: black;
+	color: red;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+tr td:first-child {
+	width: 150px;
+}
+
+tr td:nth-child(2), td:nth-child(3) {
+	width: 200px;
+}
+
+tr td:nth-child(4), td:last-child {
+	width: 100px;
+}
+
+.row {
+	background: grey;
+}
+
+#first-row {
+	background: orange;
+}
+
+#last-row {
+	text-align: right;
+	background-color: blue;
+}
+
+.flight {
+	color: green;
+	background: red;
+}
