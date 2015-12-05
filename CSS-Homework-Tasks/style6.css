@@ -4,13 +4,12 @@ table {
 	padding: 10px;
 	margin: 100px;
 	border-spacing: 0px;
-
 }
 
 #table-head {
 	text-align: left;
 	padding: 10px;
-	background: black;
+	background-color: black;
 	color: red;
 }
 
@@ -32,19 +31,23 @@ tr td:nth-child(4), td:last-child {
 }
 
 .row {
-	background: grey;
+	background-color: grey;
 }
 
 #first-row {
-	background: orange;
+	background-color: orange;
+	font-weight: bold;
 }
 
 #last-row {
 	text-align: right;
 	background-color: blue;
+	color: red;
+	font-weight: bold;
 }
 
 .flight {
-	color: green;
-	background: red;
+	color: blue;
+	background-color: red;
+	font-weight: bold;
 }

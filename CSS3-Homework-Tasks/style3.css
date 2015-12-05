@@ -1,0 +1,42 @@
+html {
+	background-color: black;
+}
+
+p {
+	margin: 10px 0px;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 3px 3px 3px purple;
+}
+
+#div0 {
+	width: 100%;
+	height: 150px;
+	margin: 200px auto;
+	padding: 5px;
+	background-color: white;
+}
+
+#columns {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 3px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 3px; /* Firefox */
+    column-rule-width: 3px;
+    -webkit-column-rule-color: orange; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: orange; /* Firefox */
+    column-rule-color: orange;
+}
+
+.font {
+	font-size: 12px;
+	margin: 20px 0px;
+}
+

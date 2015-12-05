@@ -1,0 +1,28 @@
+html {
+	background-color: black;
+}
+
+#outer-box {
+	width: 200px;
+	height: 200px;
+	margin: 200px auto;
+	padding: 50px;
+	background-color: white;
+}
+
+.text {
+	color: white;
+}
+#transition {
+	width: 200px;
+    height: 200px;
+    background-color: red;
+    -webkit-transition: width 2s, height 2s, 
+    -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#transition:hover {
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+}

@@ -1,0 +1,33 @@
+html {
+	background-color: black;
+}
+
+#outer-box {
+	width: 500px;
+	height: 500px;
+	margin: 200px auto;
+	padding: 50px;
+	background-color: white;
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:400px;}
+    50%  {left:400px; top:400px;}
+    75%  {left:400px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}

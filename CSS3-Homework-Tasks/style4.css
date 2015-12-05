@@ -1,0 +1,35 @@
+html {
+	background-color: black;
+}
+
+#outer-box {
+	width: 300px;
+	height: 500px;
+	margin: 200px auto;
+	padding: 10px;
+	background-color: white;
+}
+
+.container-size {
+	width: 200px;
+	height: 200px;
+	margin: 20px 50px 50px;
+}
+
+#container-1 {
+	background-color: black;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+#container-2 {
+	background-color: red;
+	-ms-transform: skewX(20deg); /* IE 9 */
+    -webkit-transform: skewX(20deg); /* Safari */
+    transform: skewX(20deg);
+}
+
+.text {
+	color: white;
+}

@@ -1,0 +1,44 @@
+html {
+	background-color: black;
+}
+
+#div1 {
+	width: 410px;
+	height: 310px;
+	padding: 5px;
+	border: 1px solid black;
+	background: #fff;
+	margin: 200px auto;
+}
+
+#forma {
+	width: 400px;
+	height: 300px;
+	padding: 5px;
+	border: 1px solid black;
+	background-color: #ddd;
+}
+
+#div2 {
+	padding: 20px 50px;
+}
+
+.border-corners {
+	width: 180px;
+	height: 25px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+.border-corners2 {
+	width: 90px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #999;
+	border: 1px solid #999;
+
+}
+
+input[placeholder] {
+	color: black;
+}
